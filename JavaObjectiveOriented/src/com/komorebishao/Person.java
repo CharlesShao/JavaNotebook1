@@ -14,8 +14,8 @@ public class Person {
 
     //成员方法 非静态方法
     //吃饭
-    public void eat() {
-        System.out.println("吃饭");
+    public void eat(int num) {
+        System.out.println("吃了" + num + "碗饭");
     }
     //睡觉
     public void sleep() {
@@ -39,6 +39,14 @@ public class Person {
         zhangSan.name = "张三";
         zhangSan.age = 25;
         zhangSan.height = 175;
-        zhangSan.weight = 88;
+        zhangSan.weight = 88.8;
+
+        //输出对象中的属性
+        System.out.println(zhangSan.name);
+
+        //如何调用对象中的方法
+        zhangSan.eat(2);
+        zhangSan.walkOut();
+        zhangSan.sleep();
     }
 }
