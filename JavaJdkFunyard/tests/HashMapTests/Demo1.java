@@ -10,5 +10,7 @@ public class Demo1 {
         hashMap.put("key3", 0.3);
         hashMap.put("key4", 0.4);
         hashMap.put("key5", 0.5);
+        
+
     }
 }

@@ -1,11 +1,16 @@
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import java.util.Stack;
 
 public class TestTest {
 
     @Test
     public void test1() {
-        System.out.println("12");
+        System.out.println("Bullshit");
+        Stack stackDemo = new Stack();
+    }
+    @Test
+    public void test2(){
+        System.out.println("You are right");
     }
 }

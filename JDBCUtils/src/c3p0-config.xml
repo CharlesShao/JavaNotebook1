@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+
+<!-- c3p0配置文件   配置数据源 -->
+
+
+<!-- default-config 默认 -->
+	<default-config>
+	<!-- 驱动 -->
+		<property name="driverClass">com.mysql.cj.jdbc.Driver</property>
+		<!-- url -->
+		<property name="jdbcUrl">jdbc:mysql:///mybase01?serverTimezone = GMT</property>
+		<!-- 用户名 -->
+		<property name="user">root</property>
+		<!-- 密码 -->
+		<property name="password">12071725scy</property>
+	</default-config>
+	
+<!-- named-config  通过名字指定  -->
+	<named-config name="komorebishao">
+		<property name="driverClass">com.mysql.cj.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql:///mybase01</property>
+		<property name="user">root</property>
+		<property name="password">12071725scy</property>
+	</named-config>
+
+
+
+</c3p0-config>
